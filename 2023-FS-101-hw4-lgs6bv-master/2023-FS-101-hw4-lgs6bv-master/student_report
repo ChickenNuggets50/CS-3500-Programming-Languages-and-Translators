@@ -1,0 +1,39 @@
+lgs6bv REPORT 
+********************************************
+************************  RUN   ************************
+------- Run #1 ------
+CORRECT
+------- Run #2 ------
+CORRECT
+------- Run #3 ------
+CORRECT
+------- Run #4 ------
+  File "/home/stcscpp/Documents/dropbox2/3500/23.3/hw4/lgs6bv/puckparser.py", line 56, in is_Decimal
+    ic(parts)
+NameError: name 'ic' is not defined
+------- Run #5 ------
+  File "/home/stcscpp/Documents/dropbox2/3500/23.3/hw4/lgs6bv/puckparser.py", line 12, in get_input
+    line = input().split()
+EOFError: EOF when reading a line
+------- Run #6 ------
+CORRECT
+------- Run #7 ------
+CORRECT
+------- Run #8 ------
+Invalid!
+Error: ":=" expected, got ":-"
+------- Run #9 ------
+Invalid!
+Error: ":=" expected, got "c"
+------- Run #10 ------
+Invalid!
+Error: Expected Statement (╯°□°)╯︵ ┻━┻
+------- Run #11 ------
+Invalid!
+Error: ":=" expected, got "c"
+------- Run #12 ------
+Invalid!
+Error: ":=" expected, got "c"
+------- Run #13 ------
+CORRECT
+**************************  Done! 

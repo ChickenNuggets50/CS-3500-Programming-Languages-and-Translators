@@ -1,0 +1,59 @@
+lgs6bv REPORT 
+********************************************
+************************* BISON *************************
+************************* FLEX *************************
+************************* COMPILE *************************
+************************  RUN   ************************
+------- Run #1 ------
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+------- Run #2 ------
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+------- Run #3 ------
+RULE: StatementSequence ::= Statement ; StatementSequence
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+------- Run #4 ------
+RULE: StatementSequence ::= Statement ; StatementSequence
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+------- Run #5 ------
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+------- Run #6 ------
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+------- Run #7 ------
+TOKEN: K_LOOP        LEXEME: LOOP
+ERROR: In line 1 with token 'LOOP'
+INVALID!
+------- Run #8 ------
+:TOKEN: OP_ADD        LEXEME: -
+ERROR: In line 1 with token '-'
+INVALID!
+------- Run #9 ------
+RULE: StatementSequence ::= Statement
+ERROR: In line 10 with token ''
+INVALID!
+------- Run #10 ------
+TOKEN: K_LOOP        LEXEME: LOOP
+ERROR: In line 1 with token 'LOOP'
+INVALID!
+------- Run #11 ------
+TOKEN: K_FI          LEXEME: FI
+ERROR: In line 3 with token 'FI'
+INVALID!
+------- Run #12 ------
+TOKEN: K_SC          LEXEME: ;
+ERROR: In line 11 with token ''
+INVALID!
+------- Run #13 ------
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement ; StatementSequence
+CORRECT
+**************************  Done! 

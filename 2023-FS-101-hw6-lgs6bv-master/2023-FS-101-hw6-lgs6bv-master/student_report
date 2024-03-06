@@ -1,0 +1,48 @@
+lgs6bv REPORT 
+********************************************
+*************************  LISP RUN   *************************
+myLast: G
+myCount: 2
+myMember: T
+myPurge: (A E P C)
+myCommon: (A E)
+myGen: (3 4 5 6 7 8 9 10 11)
+myGen: (4)
+myGen: NIL
+myMap: (2 4 6 8)
+myReduce: 15
+
+"Hello Lisp Exec 23.3" 
+"#1 MyLast" 
+A 
+2 
+Q 
+"#2 MyCount" 
+0 
+3 
+3 
+"#3 MyMember" 
+T 
+NIL 
+T 
+"#4 MyPurge" 
+(A) 
+(5 4 2 3 1) 
+(F M B R G U K N D E J) 
+"#5 My Common" 
+(A E X) 
+NIL 
+(R F G O E) 
+"#6" 
+(3 4 5 6 7 8 9 10 11 12) 
+(5) 
+NIL 
+"#7 MyMap" 
+(3 6 9 12 15 12 9 6 9 6 9 3) 
+(1 4 9 16 25 16 9 4 9 4 9 1) 
+((J X) (G X) (F X) (K X) (M X) (B X) (R X) (E X) (K X) (N X) (G X)) 
+"#8 MyReduce" 
+33 
+51840 
+9 
+*** DONE!

@@ -1,0 +1,50 @@
+lgs6bv REPORT 
+********************************************
+************************  RUN   ************************
+40
+1: Integer
+2: Decimal
+3: Keyword
+4: Hexadecimal
+5: Scientific
+6: INVALID!
+7: Keyword
+8: INVALID!
+9: INVALID!
+10: Integer
+11: Character
+12: Identifier
+13: String
+14: INVALID!
+15: INVALID!
+16: Keyword
+17: Integer
+18: INVALID!
+19: Hexadecimal
+20: Identifier
+21: String
+22: INVALID!
+23: INVALID!
+24: Identifier
+25: INVALID!
+26: Decimal
+27: INVALID!
+28: INVALID!
+29: Hexadecimal
+30: INVALID!
+31: INVALID!
+32: INVALID!
+33: INVALID!
+34: Hexadecimal
+35: INVALID!
+36: INVALID!
+37: Character
+38: Identifier
+39: INVALID!
+40: Integer
+************************  DIFF   ************************
+33c33
+< 32: INVALID!
+---
+> 32: Scientific
+**************************  Done! 
